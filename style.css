@@ -1,0 +1,124 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    background-color: brown;
+    font-family: 'Sigmar One', cursive;
+}
+.navbar-nav li a:hover
+{
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 5px 15px;
+    font-style: bold;
+    transition-duration: 1s;
+    font: outline;
+} 
+.navbar-brand
+{
+    margin-left: 220px;
+}
+.Brand-name
+{
+    font-size: 20px;
+    font-style: bold;
+}
+.home
+{
+    min-height: 75vh;
+    background-image: url(image/14.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   
+}
+.img1
+{
+    float: left;
+}
+.htag1
+{
+    color: rgb(6, 248, 236);
+}
+.sersec .mydesign img
+{
+    height: 150px;
+    width: 150px;
+    margin-left: 27%;
+
+}
+.page-footer p
+{
+    color: rgb(9, 243, 192);
+}
+.social a
+{
+    color: rgb(9, 243, 192);
+    margin-top: 100px;
+    
+}
+.list-unstyled p a
+{
+    color:rgb(9, 243, 192) ;
+}
+@media (max-width:1024px)
+{
+    .img1
+    {
+        visibility: hidden;
+    }
+    .conbtn
+    {
+        justify-content: center;
+        margin-bottom: 70%;
+        margin-left: 35%;
+    }
+    .sersec
+    {
+        image-rendering: optimizeSpeed;
+        text-align: center;
+    }
+    .sersec .mydesign img
+    {
+        margin-right: 35%;
+    }
+    .home 
+    {
+        background-position: center;
+    }
+}
+
+@media (max-width:320px)
+{
+    .img1
+    {
+        visibility: hidden;
+    }
+    .conbtn
+    {
+        margin-bottom: 90%;
+        margin-left: 10%;
+    }
+    .sersec
+    {
+        image-rendering: optimizeSpeed;
+        text-align: center;
+    }
+    .sersec .mydesign img
+    {
+        margin-right: 30%;
+    }
+    .home 
+    {
+        background-position: center;
+    }
+}
